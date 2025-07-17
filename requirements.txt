@@ -1,0 +1,7 @@
+flask
+pyaudio
+whisper
+transformers
+torch
+reportlab
+keyboard
