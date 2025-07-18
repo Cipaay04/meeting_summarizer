@@ -1,7 +1,8 @@
 flask
-pyaudio
 whisper
 transformers
 torch
+gunicorn
+pyaudio
 reportlab
 keyboard
