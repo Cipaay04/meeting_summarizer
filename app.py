@@ -42,8 +42,8 @@ def transcribe():
     if not os.path.exists(audio_path):
         return jsonify({"error": "❌ File audio.wav tidak ditemukan di static/hasil/"}), 400
 
-    print("🔍 Menjalankan Whisper (small) untuk transkripsi...")
-    model = whisper.load_model("small")
+    print("🔍 Menjalankan Whisper (medium) untuk transkripsi...")
+    model = whisper.load_model("medium")
     result = model.transcribe(audio_path, language="indonesian")
     transcript = result["text"]
 
