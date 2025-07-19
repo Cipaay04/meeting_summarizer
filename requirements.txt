@@ -1,8 +1,4 @@
 flask
-whisper
 transformers
 torch
-gunicorn
-pyaudio
-reportlab
-keyboard
+whisper
