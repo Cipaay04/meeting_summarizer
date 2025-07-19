@@ -1,4 +1,6 @@
 flask
+whisper
 transformers
 torch
-whisper
+sentencepiece
+gunicorn
